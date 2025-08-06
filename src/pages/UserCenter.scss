@@ -1,0 +1,18 @@
+.hfyd-user-center {
+  background: #fff;
+  .user-info {
+    display: flex; align-items: center; gap: 24px; padding: 40px;
+    img { width: 80px; border-radius: 50%; }
+    h3 { font-size: 22px; }
+    p { font-size: 16px; color: #555; }
+  }
+  .user-orders {
+    margin: 40px;
+    h4 { font-size: 20px; margin-bottom: 16px;}
+    .order-list { display: flex; gap: 16px;}
+    .order-item {
+      background: #f7f8fa; border-radius: 8px; padding: 18px 32px; font-size: 16px;
+      box-shadow: 0 2px 8px rgba(0,159,232,0.06);
+    }
+  }
+}

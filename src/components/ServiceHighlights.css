@@ -1,0 +1,35 @@
+.service-highlights {
+  background: #fff;
+  padding: 0 0 18px 0;
+}
+.highlight-list {
+  display: flex;
+  justify-content: center;
+  gap: 42px;
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1000px;
+}
+.highlight-card {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 2px 16px rgba(21,58,125,0.08);
+  padding: 28px 34px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  min-height: 120px;
+}
+.highlight-title {
+  color: #153a7d;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 13px;
+  margin-bottom: 7px;
+}
+.highlight-desc {
+  font-size: 14px;
+  color: #444;
+  text-align: center;
+}

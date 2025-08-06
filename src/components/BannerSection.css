@@ -1,0 +1,98 @@
+.banner-section {
+  background: #153a7d;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 48px 0 20px 0;
+  min-height: 370px;
+}
+.banner-left {
+  margin-left: 120px;
+  flex: 1.1;
+}
+.banner-left h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  line-height: 1.3;
+}
+.banner-left p {
+  font-size: 21px;
+  font-weight: 400;
+}
+.banner-right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 120px;
+}
+.banner-card {
+  background: #fff;
+  color: #153a7d;
+  border-radius: 18px;
+  box-shadow: 0 6px 32px rgba(21,58,125,0.12);
+  width: 320px;
+  padding: 26px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.banner-card-header {
+  font-size: 19px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-card-tabs span {
+  font-size: 15px;
+  color: #153a7d;
+  background: #e8f3fc;
+  border-radius: 14px;
+  padding: 4px 16px;
+  margin-left: 8px;
+  cursor: pointer;
+  transition: background .2s;
+}
+.banner-card-tabs .active {
+  background: #32aaff;
+  color: #fff;
+}
+.banner-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.banner-card-body input {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 9px 12px;
+  font-size: 15px;
+}
+.banner-card-btn {
+  background: #32aaff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 0;
+  font-size: 17px;
+  margin-top: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background .2s;
+}
+.banner-card-btn:hover {
+  background: #1a8fd6;
+}
+.banner-card-footer {
+  font-size: 14px;
+  color: #444;
+  margin-top: 8px;
+}
+.banner-card-footer .highlight {
+  color: #32aaff;
+  font-weight: bold;
+  margin-left: 6px;
+}

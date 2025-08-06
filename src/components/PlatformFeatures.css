@@ -1,0 +1,11 @@
+.platform-features {
+  background: #fff;
+  padding: 38px 0 24px 0;
+  text-align: center;
+}
+.platform-features h2 {
+  color: #153a7d;
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}

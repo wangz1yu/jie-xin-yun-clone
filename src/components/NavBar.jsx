@@ -5,7 +5,7 @@ export default function NavBar() {
   return (
     <nav className="navbar">
       <div className="navbar-left">
-        <img src="https://placehold.co/44x44?text=Logo" alt="节薪云" className="navbar-logo" />
+        <img src="/assets/jie-xin-logo.png" alt="节薪云" className="navbar-logo" />
         <span className="navbar-title">灵活用工财税服务平台</span>
       </div>
       <div className="navbar-menu">

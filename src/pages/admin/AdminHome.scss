@@ -1,0 +1,11 @@
+.hfyd-admin-home {
+  background: #fff;
+  .admin-panels {
+    display: flex; gap: 40px; padding: 60px; justify-content: center;
+    .panel {
+      background: #009fe8; color: #fff; padding: 40px 70px; border-radius: 18px; font-size: 22px;
+      text-decoration: none; box-shadow: 0 2px 12px rgba(0,159,232,0.13);
+      &:hover { background: #0077b6; }
+    }
+  }
+}
